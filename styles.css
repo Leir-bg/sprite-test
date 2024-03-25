@@ -1,0 +1,49 @@
+body{
+    background: #1a1a1a;
+}
+
+canvas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.5);
+    width: 600px;
+    height: 150px;
+    background: #fff;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    border: 8px double #000;
+    background: rgb(119, 119, 119);
+}
+
+canvas ~ p{
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    color: #fff;
+}
+
+.instrux{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: pre-line;
+    text-align: right;
+    line-height: 140%;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+ul{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+ul li{
+    color: #fff;
+    font-family: sans-serif;
+    margin: 4px 0;
+}
